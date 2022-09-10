@@ -1,0 +1,19 @@
+@page 
+@model ListModel
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>Resturants</h1>
+
+<table class="table">
+    @foreach(var resturant in Model.Resturants)
+    {
+        <tr>
+            <td>@resturant.Name</td>
+            <td>@resturant.Location</td>
+            <td>@resturant.Cusine</td>
+        </tr>
+    }
+</table>
+
