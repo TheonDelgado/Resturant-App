@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using RestApp.Core;
+using OdetoFood.Core;
 
-namespace RestApp.Data
+namespace OdetoFood.Data
 {
     public interface IResturantData
     {
@@ -18,10 +18,10 @@ namespace RestApp.Data
         {
             resturants = new List<Resturant>() 
             {
-                new Resturant {Id = 1, Name = "Pizza Place", Location = "Maryland", Cusine = CusineType.Other},
-                new Resturant {Id = 2, Name = "Mexican Fiesta", Location = "Dearborn", Cusine = CusineType.Mexican},
-                new Resturant {Id = 3, Name = "Kyoto", Location = "Royal Oak", Cusine = CusineType.Asian},
-                new Resturant {Id = 4, Name = "Leos Coney", Location = "Dearborn", Cusine = CusineType.American}
+                new Resturant {Id = 1, Name = "Pizza Place", Location = "Maryland", Cuisine = CuisineType.Other},
+                new Resturant {Id = 2, Name = "Mexican Fiesta", Location = "Dearborn", Cuisine = CuisineType.Mexican},
+                new Resturant {Id = 3, Name = "Kyoto", Location = "Royal Oak", Cuisine = CuisineType.Asian},
+                new Resturant {Id = 4, Name = "Leos Coney", Location = "Dearborn", Cuisine = CuisineType.American}
             };
 
 

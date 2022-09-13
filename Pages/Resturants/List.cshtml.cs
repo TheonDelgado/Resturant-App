@@ -4,8 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using RestApp.Data;
-using RestApp.Core;
+using OdetoFood.Core; 
+using OdetoFood.Data;
 
 namespace Resturant_App.Pages.Resturants
 {
