@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\meowm\\Github\\Resturant App\\OdetoFood.Core\\OdetoFood.Core.csproj",
-      "projectName": "OdetoFood.Core",
-      "projectPath": "C:\\Users\\meowm\\Github\\Resturant App\\OdetoFood.Core\\OdetoFood.Core.csproj",
+      "projectUniqueName": "C:\\Users\\meowm\\Github\\Resturant App\\Resturant_App.Core\\Resturant_App.Core.csproj",
+      "projectName": "Resturant_App.Core",
+      "projectPath": "C:\\Users\\meowm\\Github\\Resturant App\\Resturant_App.Core\\Resturant_App.Core.csproj",
       "packagesPath": "C:\\Users\\meowm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\meowm\\Github\\Resturant App\\OdetoFood.Core\\obj\\",
+      "outputPath": "C:\\Users\\meowm\\Github\\Resturant App\\Resturant_App.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

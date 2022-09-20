@@ -237,7 +237,7 @@ C:\Users\meowm\Github\Resturant App\obj\Debug\net6.0\Resturant App.dll
 C:\Users\meowm\Github\Resturant App\obj\Debug\net6.0\ref\Resturant App.dll
 C:\Users\meowm\Github\Resturant App\obj\Debug\net6.0\Resturant App.pdb
 C:\Users\meowm\Github\Resturant App\obj\Debug\net6.0\Resturant App.genruntimeconfig.cache
-C:\Users\meowm\Github\Resturant App\bin\Debug\net6.0\OdetoFood.Core\obj\OdetoFood.Core.csproj.nuget.dgspec.json
-C:\Users\meowm\Github\Resturant App\bin\Debug\net6.0\OdetoFood.Core\obj\project.assets.json
-C:\Users\meowm\Github\Resturant App\bin\Debug\net6.0\OdetoFood.Data\obj\OdetoFood.Data.csproj.nuget.dgspec.json
-C:\Users\meowm\Github\Resturant App\bin\Debug\net6.0\OdetoFood.Data\obj\project.assets.json
+C:\Users\meowm\Github\Resturant App\bin\Debug\net6.0\Resturant_App.Core\obj\project.assets.json
+C:\Users\meowm\Github\Resturant App\bin\Debug\net6.0\Resturant_App.Core\obj\Resturant_App.Core.csproj.nuget.dgspec.json
+C:\Users\meowm\Github\Resturant App\bin\Debug\net6.0\Resturant_App.Data\obj\project.assets.json
+C:\Users\meowm\Github\Resturant App\bin\Debug\net6.0\Resturant_App.Data\obj\Resturant_App.Data.csproj.nuget.dgspec.json

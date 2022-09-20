@@ -19,8 +19,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/meowm/Github/Resturant App/Pages/Resturants/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdHVyYW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/meowm/Github/Resturant App/Pages/Resturants/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdHVyYW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/meowm/Github/Resturant App/Pages/Resturants/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdHVyYW50c1xMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/meowm/Github/Resturant App/Pages/Resturants/NotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdHVyYW50c1xOb3RGb3VuZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/meowm/Github/Resturant App/Pages/Shared/_ValidationScriptsPartial.cshtml]

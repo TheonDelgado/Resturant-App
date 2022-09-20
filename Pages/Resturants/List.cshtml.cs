@@ -4,8 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using OdetoFood.Core; 
-using OdetoFood.Data;
+using Resturant_App.Core; 
+using Resturant_App.Data;
 
 namespace Resturant_App.Pages.Resturants
 {
@@ -16,6 +16,9 @@ namespace Resturant_App.Pages.Resturants
         public string Message { get; set; }
         public IEnumerable<Resturant> Resturants { get; set; }
 
+        [BindProperty(SupportsGet =true)]
+        public string SearchTerm { get; set; }
+
         public ListModel(IConfiguration config, IResturantData resturantData)
         {
             this.config = config;
@@ -23,8 +26,9 @@ namespace Resturant_App.Pages.Resturants
         }
         public void OnGet()
         {
-           Message = config["Message"];
-           Resturants = resturantData.GetAll();
+            
+            Message = config["Message"];
+            Resturants = resturantData.GetResturantsByName(SearchTerm);
         }
     }
 }

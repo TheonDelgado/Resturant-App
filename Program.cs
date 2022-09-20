@@ -1,4 +1,4 @@
-using OdetoFood.Data;
+using Resturant_App.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\meowm\\Github\\Resturant App\\OdetoFood.Core\\OdetoFood.Core.csproj": {}
+    "C:\\Users\\meowm\\Github\\Resturant App\\Resturant_App.Data\\Resturant_App.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\meowm\\Github\\Resturant App\\OdetoFood.Core\\OdetoFood.Core.csproj": {
+    "C:\\Users\\meowm\\Github\\Resturant App\\Resturant_App.Data\\Resturant_App.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\meowm\\Github\\Resturant App\\OdetoFood.Core\\OdetoFood.Core.csproj",
-        "projectName": "OdetoFood.Core",
-        "projectPath": "C:\\Users\\meowm\\Github\\Resturant App\\OdetoFood.Core\\OdetoFood.Core.csproj",
+        "projectUniqueName": "C:\\Users\\meowm\\Github\\Resturant App\\Resturant_App.Data\\Resturant_App.Data.csproj",
+        "projectName": "Resturant_App.Data",
+        "projectPath": "C:\\Users\\meowm\\Github\\Resturant App\\Resturant_App.Data\\Resturant_App.Data.csproj",
         "packagesPath": "C:\\Users\\meowm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\meowm\\Github\\Resturant App\\OdetoFood.Core\\obj\\",
+        "outputPath": "C:\\Users\\meowm\\Github\\Resturant App\\Resturant_App.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

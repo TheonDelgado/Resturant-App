@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace OdetoFood.Core
+namespace Resturant_App.Core
 {
     public class Resturant
     {
