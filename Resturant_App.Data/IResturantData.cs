@@ -10,6 +10,8 @@ namespace Resturant_App.Data
     {
         IEnumerable<Resturant> GetResturantsByName(string name);
         Resturant GetById(int id);
+        Resturant Update(Resturant updatedResturant);
+        int Commit();
     }
 
     public class InMemoryResturantData : IResturantData
@@ -36,6 +38,24 @@ namespace Resturant_App.Data
         public IEnumerable<Resturant> GetResturantsByName(string name = null) 
         {
             return from r in resturants where string.IsNullOrEmpty(name) || r.Name.StartsWith(name) orderby r.Name select r;
+        }
+
+        public Resturant Update(Resturant updatedResturant)
+        {
+            Resturant resturant = resturants.SingleOrDefault(r => r.Id == updatedResturant.Id);
+
+            if(resturant != null)
+            {
+                resturant.Name = updatedResturant.Name;
+                resturant.Location = updatedResturant.Location;
+                resturant.Cuisine = updatedResturant.Cuisine;
+            }
+            return resturant;
+        }
+
+        public int Commit()
+        {
+            return 0;
         }
     }
 }

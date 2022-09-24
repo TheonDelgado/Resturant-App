@@ -11,6 +11,7 @@ namespace Resturant_App.Pages.Resturants
         private readonly IResturantData resturantData;
         private readonly IHtmlHelper htmlHelper;
 
+        [BindProperty]
         public Resturant Resturant { get; set; }
         public IEnumerable<SelectListItem> Cuisines { get; set; }
 
@@ -30,6 +31,13 @@ namespace Resturant_App.Pages.Resturants
             {
                 return RedirectToPage("./NotFound");
             }
+            return Page();
+        }
+
+        public IActionResult OnPost()
+        {   
+            Resturant = resturantData.Update(Resturant);
+            resturantData.Commit();
             return Page();
         }
     }

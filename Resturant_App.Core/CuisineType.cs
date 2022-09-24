@@ -1,10 +1,10 @@
 namespace Resturant_App.Core
 {
-    public enum CuisineType 
+    public enum CuisineType
     {
-        AMERICAN,
-        MEXICAN, 
-        ASIAN, 
+        AMERICAN, 
+        MEXICAN,
+        ASIAN,
         OTHER
     }
 }
