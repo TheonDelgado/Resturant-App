@@ -36,8 +36,7 @@ namespace Resturant_App.Pages.Resturants
 
         public IActionResult OnPost()
         {   
-            Resturant = resturantData.Update(Resturant);
-            resturantData.Commit();
+            Resturant = new Resturant();
             return Page();
         }
     }
